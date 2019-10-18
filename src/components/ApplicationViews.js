@@ -2,7 +2,7 @@ import {Route, withRouter,Redirect} from"react-router-dom";
 import React, { Component } from "react";
 import Home from "./home/home"
 import Login from "./auth/Login"
-
+import DrillCard from "./drills/DrillCard"
 class ApplicationViews extends Component {
     isAuthenticated =()=> localStorage.getItem("userId") !==null;
 

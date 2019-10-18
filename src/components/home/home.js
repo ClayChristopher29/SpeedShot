@@ -7,9 +7,14 @@ class Home extends Component {
     render(){
         return(
 
-
-
+<React.Fragment>
+<div>
+    <p id="descriptive-paragraph">
+        Welcome to Speed-Shot, your go-to application for tracking your personal progress as a competative or self defense shooter.
+    </p>
+</div>
                 <div className="video-background">
+
                     <div className="video-foreground">
                         <YoutubeBackground id="myVideo"
                             videoId="sJVpUWCGztQ"
@@ -22,6 +27,7 @@ class Home extends Component {
 
                         </div>
                         </div>
+                        </React.Fragment>
 
 
 
