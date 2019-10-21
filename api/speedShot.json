@@ -1,91 +1,103 @@
 {
-    "users": [
-        {
-            "id": "",
-            "username": "",
-            "password": ""
-        }
-    ],
-    "drills": [
-        {
-            "id": 1,
-            "drillname": "Oh Crap Drill",
-            "difficulty": "Intermidiate",
-            "weapon": "All Platforms",
-            "description": "So you need to set up a malfunction.  You can use an empty brass case, or a Snap Cap to make sure it’s nice and complicated.  I prefer to load a double feed to make things nice and hard on myself. All standard PPE is required, and if you are shooting quite a bit that day I’d suggest gloves to help avoid burns.  Set the drill up with your Snap Cap or brass case and create a complicated malfunction in your weapon of choice. You want live rounds in the magazine, or tube ready to rock and roll.Start the drill in the ready position, as if you had just fired and are going to fire again.  If you are using a timer, wait for it to sound off.  When it sounds off, the drill begins.",
-            "url": "https://www.youtube.com/watch?v=68zscLglHv4"
-        },
-        {
-            "id": 2,
-            "drillname": "The Failure to Stop Drill",
-            "difficulty": "Beginner",
-            "weapon": "Pistol, Semi-Auto Rifle",
-            "description": "The Failure to stop drill is two shots to the chest and one to the head. The failure to stop drill is the same drill with any weapon platform. Except for a machine gun, because with an MG it’s basically just a whole lot everywhere.The Failure to Stop Drill, or FSD for brevity’s sake, is mostly useful with a rifle or pistol.  A failure to stop drill with a shotgun tends to be unnecessary, but can be done.  Regardless of the weapon the being used the drill is the same. The Failure to Stop Drill, or FSD for brevity’s sake, is mostly useful with a rifle or pistol.  A failure to stop drill with a shotgun tends to be unnecessary, but can be done.  Regardless of the weapon the being used the drill is the same.",
-            "url": "https://www.youtube.com/watch?v=O8QrWm3Acc0"
-        },
-        {
-            "id": 3,
-            "drillname": "The Box Drill",
-            "difficulty": "Intermediate",
-            "weapon": "All Platforms",
-            "description": "Place the targets about a yard apart.  It’s faster to engage with your dominant hand, so that’s where you should start. Engage the first target with two to the chest, transition to the second target, fire two to his chest.On the second target take your headshot, then transition and finish the drill with a final headshot on the first target.This drill stresses shot placement, and multiple target engagement.  It forces you to think under stress, and focus on kicking ass in a proactive way.  The Box drill lets you get your inner Collateral out, and dominate your target.",
-            "url": "https://www.youtube.com/watch?v=EMMoYXKovsU"
-        },
-        {
-            "id": 4,
-            "drillname": "The El Presidente Drill",
-            "difficulty": "Advanced",
-            "weapon": "Pistol, Semi-Auto Rifle",
-            "description": "The El Presidente was designed by the King of Combat handgun shooting, Jeff Cooper.  The drill is designed to challenge a pistol shooters ability to draw, engage, transition targets, reload, and then re engage multiple targets again.  The drill should be completed in ten seconds, or 5 if you are an advanced shooter.Eric did a great piece on the El Presidente Drill if you want to learn more.You’ll need three man sized targets set 1 meter apart, and the targets will be 10 meters from you. You’ll start with a holstered handgun, and a spare mag carried as you please.  You’ll need six rounds in each mag.",
-            "url": "https://www.youtube.com/watch?v=7OfsxKFh370"
-        },
-        {
-            "id": 5,
-            "drillname": "Shoot 2, Load 2",
-            "difficulty": "Advanced",
-            "weapon": "Shotguns",
-            "description": "The thing with is a shotgun is the low ammo capacity.  Even in the most kitted up combat shotguns you are likely only getting 9 rounds or less. It’s an essential skill for any shotgunner to know how to reload their weapon.It’s simple shoot two rounds, reload two shells. You want to reload with your non dominant hand, and keep the shotgun point at the targets. You can do it once, or as long as you can continue reloading the shotgun. The key to this drill is repetition. The faster you get the better. It’s simple shoot two rounds, reload two shells. You want to reload with your non dominant hand, and keep the shotgun point at the targets. You can do it once, or as long as you can continue reloading the shotgun. The key to this drill is repetition. The faster you get the better.",
-            "url": "https://www.youtube.com/watch?v=fQW3KJVZ8u0"
-        },
-        {
-            "id": 6,
-            "drillname": "First Shot Drill",
-            "difficulty": "Beginner",
-            "weapon": "Pistol",
-            "description": "The first shot drill is basic: you start with a loaded pistol in your holster and your hands off the gun. Draw the pistol, assume a shooting stance, aim and fire one shot at your target. The value of this drill is fairly obvious, since it's practicing defensive shooting. A concealed carrier (or open carrier) may have to draw and immediately fire. Thus, it behooves one to practice this skill. If you're going to carry it, you may as well have a quality gun belt and you may as well know what to do if you have to draw your firearm. The goal is decreasing the time required to go from rest to putting a shot on target, which is good for defensive shooters and competitive shooters alike. Start slow and smooth; speed will come. When you learn how to do basically anything, always start slow and smooth so you learn how to do it right from the get-go. The maxim slow is smooth and smooth is fast applies. Want to track progress? Get a timer",
-            "url": "https://www.youtube.com/watch?v=xd_yJdXWG0o&t=19s"
-        },
-        {
-            "id": 7,
-            "drillname": "Dot Torture",
-            "difficulty": "Advanced",
-            "weapon": "Pistol, Semi-Auto Rifle",
-            "description": "The idea behind the drill is it will allow you to work on all your fundamentals. Trigger control, sight alignment, speed, draw, holstering, reloading. Each string is scored independently and the whole drill is done without time constraint or concealment. According to the instructions, here is how each dot should be shot. Dot #1- Draw and fire one string of 5 rounds for best group. One hole if possible, total 5 rounds. Dot #2- Draw and fire 1 shot, holster and repeat X4, total 5 rounds. Dot #3 and 4- Draw and fire 1 shot on #3, then 1 shot on 4, holster and repeat X4, total 8 rounds. Dot #5- Draw and fire string of 5 rounds, strong hand only, total 5 roundsDot #6 and 7- Draw and fire 2 shots on #6, then 2 on #7, holster, repeat X4, total 16 rounds Dot #8- From ready or retention, fire five shots, weak hand only, total 5 rounds. Dot #9 and 10- Draw and fire 1 shots on #9, speed reload, fire 1 shots on #10, holster and repeat X3, total 6 rounds.",
-            "url": "https://www.youtube.com/watch?v=PfwjzYetglg"
-        },
-        {
-            "id": 8,
-            "drillname": "3 Round Fade Back Drill",
-            "difficulty": "Intermediate",
-            "weapon": "Pistol",
-            "description":"This drill requires nothing more than a 3x5 card and 25 yards of range room. It's hard to imagine a simpler drill, and that's the point. Since there isn't a time limit, accuracy is the shooter's only concern. The drill starts at the three-yard line, with the shooter firing his or her best possible three rounds at the 3x5 card. As you would expect, most fairly proficient semiauto shooters can print a one-hole group at this distance, or close to it; double-action revolver shooters may not be able to, but the goal is the same. At the five-yard line, the results tend to be pretty similar.At seven and 10 yards, groups start to open up a bit, but most students are able to keep their rounds on the 3x5 card. At 12 yards, the 3x5 card starts to seem a little smaller. At this distance, most standard width sights cover the card, leaving no target information around the front sight. A very smooth trigger press is required even at this relatively close range in order to stay on target. At 15 yards, things get even more dicey, as the shooter has to guestimate where the rounds will impact. Mind you, there is no pressure to deliver the rounds quickly. From 20 yards, most shooters would be happy to hit a man-size target. The 3x5 card is a real challenge. As an experienced shooter, it's not uncommon for me to throw a couple rounds at this distance. Then comes the final stage: the dreaded 25-yard line.",
-                    "url": "https://www.youtube.com/watch?v=PfwjzYetglg"
-        }
-    ],
-    "rangeData": [
-        {
-            "id": "",
-            "userid": "",
-            "caliber": "",
-            "drill": "",
-            "notes": "",
-            "date": ""
-        }
-    ],
-    "userDrills": [
-        {
-            "userid": "",
-            "drillid": ""
-        }
-    ]
+  "users": [
+    {
+      "userName": "Kyle",
+      "userEmail": "Kyle@Kyle.com",
+      "userPassword": "Password",
+      "nameFirst": "Kyle",
+      "nameLast": "McShootypants",
+      "locationCounty": "Cabell",
+      "address1": "1234 roadplace",
+      "address2": "",
+      "locationCity": "Huntington",
+      "locationState": "West Virginia",
+      "locationZip": "25504",
+      "telHome": "304-123-1234",
+      "telCell": "",
+      "telWork": "",
+      "id": "3VqtngQ"
+    }
+  ],
+  "drills": [
+    {
+      "id": 1,
+      "drillname": "Oh Crap Drill",
+      "difficulty": "Intermidiate",
+      "weapon": "All Platforms",
+      "description": "So you need to set up a malfunction.  You can use an empty brass case, or a Snap Cap to make sure it’s nice and complicated.  I prefer to load a double feed to make things nice and hard on myself. All standard PPE is required, and if you are shooting quite a bit that day I’d suggest gloves to help avoid burns.  Set the drill up with your Snap Cap or brass case and create a complicated malfunction in your weapon of choice. You want live rounds in the magazine, or tube ready to rock and roll.Start the drill in the ready position, as if you had just fired and are going to fire again.  If you are using a timer, wait for it to sound off.  When it sounds off, the drill begins.",
+      "url": "https://www.youtube.com/watch?v=68zscLglHv4"
+    },
+    {
+      "id": 2,
+      "drillname": "The Failure to Stop Drill",
+      "difficulty": "Beginner",
+      "weapon": "Pistol, Semi-Auto Rifle",
+      "description": "The Failure to stop drill is two shots to the chest and one to the head. The failure to stop drill is the same drill with any weapon platform. Except for a machine gun, because with an MG it’s basically just a whole lot everywhere.The Failure to Stop Drill, or FSD for brevity’s sake, is mostly useful with a rifle or pistol.  A failure to stop drill with a shotgun tends to be unnecessary, but can be done.  Regardless of the weapon the being used the drill is the same. The Failure to Stop Drill, or FSD for brevity’s sake, is mostly useful with a rifle or pistol.  A failure to stop drill with a shotgun tends to be unnecessary, but can be done.  Regardless of the weapon the being used the drill is the same.",
+      "url": "https://www.youtube.com/watch?v=O8QrWm3Acc0"
+    },
+    {
+      "id": 3,
+      "drillname": "The Box Drill",
+      "difficulty": "Intermediate",
+      "weapon": "All Platforms",
+      "description": "Place the targets about a yard apart.  It’s faster to engage with your dominant hand, so that’s where you should start. Engage the first target with two to the chest, transition to the second target, fire two to his chest.On the second target take your headshot, then transition and finish the drill with a final headshot on the first target.This drill stresses shot placement, and multiple target engagement.  It forces you to think under stress, and focus on kicking ass in a proactive way.  The Box drill lets you get your inner Collateral out, and dominate your target.",
+      "url": "https://www.youtube.com/watch?v=EMMoYXKovsU"
+    },
+    {
+      "id": 4,
+      "drillname": "The El Presidente Drill",
+      "difficulty": "Advanced",
+      "weapon": "Pistol, Semi-Auto Rifle",
+      "description": "The El Presidente was designed by the King of Combat handgun shooting, Jeff Cooper.  The drill is designed to challenge a pistol shooters ability to draw, engage, transition targets, reload, and then re engage multiple targets again.  The drill should be completed in ten seconds, or 5 if you are an advanced shooter.Eric did a great piece on the El Presidente Drill if you want to learn more.You’ll need three man sized targets set 1 meter apart, and the targets will be 10 meters from you. You’ll start with a holstered handgun, and a spare mag carried as you please.  You’ll need six rounds in each mag.",
+      "url": "https://www.youtube.com/watch?v=7OfsxKFh370"
+    },
+    {
+      "id": 5,
+      "drillname": "Shoot 2, Load 2",
+      "difficulty": "Advanced",
+      "weapon": "Shotguns",
+      "description": "The thing with is a shotgun is the low ammo capacity.  Even in the most kitted up combat shotguns you are likely only getting 9 rounds or less. It’s an essential skill for any shotgunner to know how to reload their weapon.It’s simple shoot two rounds, reload two shells. You want to reload with your non dominant hand, and keep the shotgun point at the targets. You can do it once, or as long as you can continue reloading the shotgun. The key to this drill is repetition. The faster you get the better. It’s simple shoot two rounds, reload two shells. You want to reload with your non dominant hand, and keep the shotgun point at the targets. You can do it once, or as long as you can continue reloading the shotgun. The key to this drill is repetition. The faster you get the better.",
+      "url": "https://www.youtube.com/watch?v=fQW3KJVZ8u0"
+    },
+    {
+      "id": 6,
+      "drillname": "First Shot Drill",
+      "difficulty": "Beginner",
+      "weapon": "Pistol",
+      "description": "The first shot drill is basic: you start with a loaded pistol in your holster and your hands off the gun. Draw the pistol, assume a shooting stance, aim and fire one shot at your target. The value of this drill is fairly obvious, since it's practicing defensive shooting. A concealed carrier (or open carrier) may have to draw and immediately fire. Thus, it behooves one to practice this skill. If you're going to carry it, you may as well have a quality gun belt and you may as well know what to do if you have to draw your firearm. The goal is decreasing the time required to go from rest to putting a shot on target, which is good for defensive shooters and competitive shooters alike. Start slow and smooth; speed will come. When you learn how to do basically anything, always start slow and smooth so you learn how to do it right from the get-go. The maxim slow is smooth and smooth is fast applies. Want to track progress? Get a timer",
+      "url": "https://www.youtube.com/watch?v=xd_yJdXWG0o&t=19s"
+    },
+    {
+      "id": 7,
+      "drillname": "Dot Torture",
+      "difficulty": "Advanced",
+      "weapon": "Pistol, Semi-Auto Rifle",
+      "description": "The idea behind the drill is it will allow you to work on all your fundamentals. Trigger control, sight alignment, speed, draw, holstering, reloading. Each string is scored independently and the whole drill is done without time constraint or concealment. According to the instructions, here is how each dot should be shot. Dot #1- Draw and fire one string of 5 rounds for best group. One hole if possible, total 5 rounds. Dot #2- Draw and fire 1 shot, holster and repeat X4, total 5 rounds. Dot #3 and 4- Draw and fire 1 shot on #3, then 1 shot on 4, holster and repeat X4, total 8 rounds. Dot #5- Draw and fire string of 5 rounds, strong hand only, total 5 roundsDot #6 and 7- Draw and fire 2 shots on #6, then 2 on #7, holster, repeat X4, total 16 rounds Dot #8- From ready or retention, fire five shots, weak hand only, total 5 rounds. Dot #9 and 10- Draw and fire 1 shots on #9, speed reload, fire 1 shots on #10, holster and repeat X3, total 6 rounds.",
+      "url": "https://www.youtube.com/watch?v=PfwjzYetglg"
+    },
+    {
+      "id": 8,
+      "drillname": "3 Round Fade Back Drill",
+      "difficulty": "Intermediate",
+      "weapon": "Pistol",
+      "description": "This drill requires nothing more than a 3x5 card and 25 yards of range room. It's hard to imagine a simpler drill, and that's the point. Since there isn't a time limit, accuracy is the shooter's only concern. The drill starts at the three-yard line, with the shooter firing his or her best possible three rounds at the 3x5 card. As you would expect, most fairly proficient semiauto shooters can print a one-hole group at this distance, or close to it; double-action revolver shooters may not be able to, but the goal is the same. At the five-yard line, the results tend to be pretty similar.At seven and 10 yards, groups start to open up a bit, but most students are able to keep their rounds on the 3x5 card. At 12 yards, the 3x5 card starts to seem a little smaller. At this distance, most standard width sights cover the card, leaving no target information around the front sight. A very smooth trigger press is required even at this relatively close range in order to stay on target. At 15 yards, things get even more dicey, as the shooter has to guestimate where the rounds will impact. Mind you, there is no pressure to deliver the rounds quickly. From 20 yards, most shooters would be happy to hit a man-size target. The 3x5 card is a real challenge. As an experienced shooter, it's not uncommon for me to throw a couple rounds at this distance. Then comes the final stage: the dreaded 25-yard line.",
+      "url": "https://www.youtube.com/watch?v=PfwjzYetglg"
+    }
+  ],
+  "rangeData": [
+    {
+      "id": "",
+      "userid": "",
+      "caliber": "",
+      "drill": "",
+      "notes": "",
+      "date": ""
+    }
+  ],
+  "userDrills": [
+    {
+      "userid": "",
+      "drillid": ""
+    }
+  ]
 }
