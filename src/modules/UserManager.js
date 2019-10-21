@@ -1,6 +1,6 @@
 const remoteURL = "http://localhost:5002"
 
-export default {
+export default  {
     getAllUsers: () => {
         return fetch("http://localhost:5002/users")
             .then(au => au.json())

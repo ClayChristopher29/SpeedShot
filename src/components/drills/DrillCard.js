@@ -1,24 +1,24 @@
-// import React, { Component } from "react";
-// import { Link } from "react-router-dom";
-// import { makeStyles } from '@material-ui/core/styles';
-// import Button from '@material-ui/core/Button';
-// import ExpansionPanel from '@material-ui/core/ExpansionPanel';
-// import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
-// import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
-// import Typography from '@material-ui/core/Typography';
-// import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import React, { Component } from "react";
+// import Link from "react-router-dom"
 
-// class DrillCard extends Component {
-//     render(){
+class DrillCard extends Component {
+    render() {
+        debugger
+        console.log(this.props.drillProps)
+        return (
 
+            <div className="drill-card">
+                <div className="drill-card-content">
+                    <picture>
+                        <img src={require("./ar15.png")} alt="Logo" />
+                    </picture>
+                    <h3>
+                        Drill Name:
+                        <span className="card-drillname"></span>
+                    </h3>
 
-//         return(
-//             <div className="drillCard">
-//                 <div className="drillCard-content">
-
-//                 </div>
-//             </div>
-//         )
-//     }
-// }
-// export default DrillCard
+                </div>
+            </div>)
+    }
+}
+export default DrillCard

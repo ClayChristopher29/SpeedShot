@@ -5,6 +5,6 @@ import SpeedShot from './components/SpeedShot'
 
 ReactDOM.render(
   <Router>
-    <SpeedShot />
+    <SpeedShot/>
   </Router>
   , document.getElementById('root'))
