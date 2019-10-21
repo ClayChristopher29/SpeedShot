@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import DrillCard from "./DrillCard";
 import DrillManager from "../../modules/DrillManager";
 import './Drills.css'
-import { conditionalExpression } from "@babel/types";
+
 
 class DrillList extends Component {
     state = {

@@ -37,16 +37,7 @@ render() {
             }
           }}
         />
-        <Route
-          path="/drills"
-          render={props => {
-            return this.isAuthenticated() ? (
-              <DrillCard {...props} />
-            ) : (
-              <Redirect to="/login" />
-            );
-          }}
-        />
+
         <Route
           exact
           path="/drills/:drillId(\d+)"

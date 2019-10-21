@@ -33,6 +33,16 @@ class DrillDetail extends Component {
                     <img className="drill-img" src ={require('./ar15.png')}alt="logo"/>
                 </picture>
                 <h3>Name:<span style= {{ color:'darkslategrey'}}>{this.state.drillname}</span></h3>
+                <p>
+                    Difficulty: <span style={{color:'darkslategrey'}}>{this.state.difficulty}</span>
+                </p><p>
+                    Platform: <span style={{color:'darkslategrey'}}>{this.state.weapon}</span>
+                </p><p>
+                    Details: <span style={{color:'darkslategrey'}}>{this.state.details}</span>
+                </p><p>
+                    You-Tube Link: <span style={{color:'darkslategrey'}}>{this.state.url}</span>
+                </p>
+
                 </div>
             </div>
         )

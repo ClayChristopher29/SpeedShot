@@ -5,7 +5,7 @@ const remoteURL = "http://localhost:5002"
 
 export default {
     // get single drill information
-    get(id){
+    getOne(id){
         return fetch(`${remoteURL}/drills/${id}`).then(result => result.json())
     },
     // get all drills from API
