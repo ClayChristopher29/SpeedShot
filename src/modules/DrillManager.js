@@ -14,9 +14,27 @@ export default {
     },
     // delete single drill from JSON
     delete(id){
-        return fetch (`${remoteURL}/drills/${id}`,{
+        return fetch (`${remoteURL}/range/${id}`,{
             method:"DELETE"
         })
         .then(result => result.json)
+    },
+    post(newDrill){
+        return fetch(`${remoteURL}/range`,{
+            method:"POST",
+            headers:{
+                "Content-Type":"application/json"
+            },
+            body:JSON.stringify(newDrill)
+        }).then(data => data.json())
+    },
+    update(editedDrill) {
+        return fetch(`${remoteURL}/range/${editedDrill.id}`,{
+            method:"PUT",
+            headers:{
+                "Content-Type":"application/json"
+            },
+            body:JSON.stringify(editedDrill)
+        }).then(data => data.json())
     }
 }

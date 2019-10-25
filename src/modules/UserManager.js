@@ -1,12 +1,12 @@
 const remoteURL = "http://localhost:5002"
 
 export default  {
-    getAllUsers: () => {
+    getAll: () => {
         return fetch("http://localhost:5002/users")
             .then(au => au.json())
     },
 
-    getSingleUser: (userId) => {
+    getSingle: (userId) => {
         return fetch(`${remoteURL}/users/${userId}`)
             .then(su => su.json())
     },
@@ -20,12 +20,6 @@ export default  {
             body: JSON.stringify(newUser)
         }).then(u => u.json())
     },
-
-    // checkUserName: (userName) => {
-    //     return fetch(`${remoteURL}/users?name=${userName}`)
-    //        .then(u => u.json())
-    // },
-
     checkUserEmail: (userEmail) => {
         return fetch(`${remoteURL}/users?userEmail=${userEmail}`)
             .then(su => su.json())
