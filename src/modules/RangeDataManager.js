@@ -2,14 +2,14 @@
 const remoteURL = "http://localhost:5002"
 
 export default {
-    get(id){
-        return fetch(`${remoteURL}/rangeData/${id}`).then(result => result.json())
+    getOne(rangeId){
+        return fetch(`${remoteURL}/rangeData/${rangeId}?_expand=drill&_expand=platform&_expand=weather`).then(result => result.json())
     },
     getAll(){
         return fetch(`${remoteURL}/rangeData`).then(result => result.json())
     },
-    delete(id){
-        return fetch (`${remoteURL}/rangeData/${id}`,{
+    delete(rangeId){
+        return fetch (`${remoteURL}/rangeData/${rangeId}`,{
             method:"DELETE"
         })
         .then(result => result.json())

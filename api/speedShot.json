@@ -82,16 +82,68 @@
       "weapon": "Pistol",
       "description": "This drill requires nothing more than a 3x5 card and 25 yards of range room. It's hard to imagine a simpler drill, and that's the point. Since there isn't a time limit, accuracy is the shooter's only concern. The drill starts at the three-yard line, with the shooter firing his or her best possible three rounds at the 3x5 card. As you would expect, most fairly proficient semiauto shooters can print a one-hole group at this distance, or close to it; double-action revolver shooters may not be able to, but the goal is the same. At the five-yard line, the results tend to be pretty similar.At seven and 10 yards, groups start to open up a bit, but most students are able to keep their rounds on the 3x5 card. At 12 yards, the 3x5 card starts to seem a little smaller. At this distance, most standard width sights cover the card, leaving no target information around the front sight. A very smooth trigger press is required even at this relatively close range in order to stay on target. At 15 yards, things get even more dicey, as the shooter has to guestimate where the rounds will impact. Mind you, there is no pressure to deliver the rounds quickly. From 20 yards, most shooters would be happy to hit a man-size target. The 3x5 card is a real challenge. As an experienced shooter, it's not uncommon for me to throw a couple rounds at this distance. Then comes the final stage: the dreaded 25-yard line.",
       "url": "https://www.youtube.com/watch?v=PfwjzYetglg"
+    },
+    {
+      "id": 9,
+      "drillId": 4,
+      "weatherId": 4,
+      "platformId": 3,
+      "average": "",
+      "date": "2019-10-24T14:01:19.372Z",
+      "notes": ""
     }
   ],
   "rangeData": [
     {
-      "id": "",
-      "userid": "",
-      "caliber": "",
-      "drill": "",
-      "notes": "",
-      "date": ""
+      "userId": "3VqtngQ",
+      "drillId": 3,
+      "caliber": "5.56",
+      "weatherId": 3,
+      "platformId": 2,
+      "average": "0.06",
+      "date": "2019-10-24T18:57:43.825Z",
+      "notes": "Test",
+      "id": 1
+    }
+  ],
+  "weathers": [
+    {
+      "id": 1,
+      "type": "Clear"
+    },
+    {
+      "id": 2,
+      "type": "Rain"
+    },
+    {
+      "id": 3,
+      "type": "Humid"
+    },
+    {
+      "id": 4,
+      "type": "Cold"
+    },
+    {
+      "id": 5,
+      "type": "Hot"
+    }
+  ],
+  "platforms": [
+    {
+      "id": 1,
+      "platform": "Pistol"
+    },
+    {
+      "id": 2,
+      "platform": "Semi-Auto Rifle"
+    },
+    {
+      "id": 3,
+      "platform": "Shot-Gun"
+    },
+    {
+      "id": 4,
+      "platform": "All Platforms"
     }
   ],
   "userDrills": [
