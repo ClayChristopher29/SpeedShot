@@ -9,6 +9,8 @@ import RangeList from "./range/RangeList"
 import RangeEditForm from "./range/RangeEditForm"
 import RangeDetail from "./range/RangeDetail"
 import NewUserReg from '../components/auth/newUserReg'
+// import UserSavedDrills from '../components/drills/MyDrills'
+import UserDrillList from "./drills/UserDrillsList";
 class ApplicationViews extends Component {
     isAuthenticated =()=> localStorage.getItem("userId") !==null;
 
@@ -122,6 +124,15 @@ render() {
             return <RangeEditForm {...props} />;
           }}
         />
+        <Route exact
+        path ="/mydrills"
+        render={props=>{
+        return<UserDrillList {...props} />}}/>
+
+
+
+
+
 
         </React.Fragment>
     )
