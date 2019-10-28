@@ -20,7 +20,7 @@ export default {
         .then(result => result.json)
     },
     post(newDrill){
-        return fetch(`${remoteURL}/range`,{
+        return fetch(`${remoteURL}/userDrills?_expand=drills`,{
             method:"POST",
             headers:{
                 "Content-Type":"application/json"

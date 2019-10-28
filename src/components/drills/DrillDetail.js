@@ -2,14 +2,28 @@ import React, { Component } from 'react';
 import DrillManager from '../../modules/DrillManager'
 import'./Drills.css'
 
+
 class DrillDetail extends Component {
     state={
+        userId:"",
+        drillId:"",
         drillname:"",
         difficulty:"",
         weapon:"",
         details:"",
         url:"",
         loadingStatus:true
+    }
+    saveNewDrill = evt =>
+    {
+        evt.preventDefault();
+        this.setState({loadingStatus:true});
+        const newSavedDrill={
+            userId:localStorage.getItem('userId'),
+            drillId:this.props.drillId
+        }
+        DrillManager.post(newSavedDrill).then(()=>
+        this.props.history.push("/mydrills"))
     }
 
     componentDidMount(){
@@ -39,9 +53,15 @@ class DrillDetail extends Component {
                     Platform: <span style={{color:'darkslategrey'}}>{this.state.weapon}</span>
                 </p><p>
                     Details: <span style={{color:'darkslategrey'}}>{this.state.details}</span>
-                </p><p>
-                    You-Tube Link: <span style={{color:'darkslategrey'}}>{this.state.url}</span>
                 </p>
+                <a target ="_blank" rel="noopener noreferrer" href={this.state.url} alt="You-Tube Link">{this.state.url}</a>
+                <br></br>
+                <br></br>
+
+            <button type="button"
+            disabled={this.state.loadingStatus}
+            onClick={this.saveNewDrill}>Save Drill</button>
+
 
                 </div>
             </div>

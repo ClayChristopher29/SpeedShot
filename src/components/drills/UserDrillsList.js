@@ -1,18 +1,19 @@
 import React, { Component } from "react";
 import DrillCard from "./DrillCard";
-import DrillManager from "../../modules/DrillManager";
+import UserDrillsManager from "../../modules/UserDrillsManager";
 import './Drills.css'
 
 
-class DrillList extends Component {
+class UserDrillList extends Component {
     state = {
-        userDrills: []
+        Userdrills: []
     };
     componentDidMount() {
         console.log("mount")
-        DrillManager.getAll().then(drillsFromDatabase => {
+        UserDrillsManager.getAll().then(drillsFromDatabase => {
+            console.log(drillsFromDatabase)
             this.setState({
-               userDrills: drillsFromDatabase
+               Userdrills: drillsFromDatabase
             });
         });
     }
@@ -23,8 +24,8 @@ class DrillList extends Component {
                 <section className="drill-section-content">
                 </section>
                 <div className="drill-container-cards">
-                    {this.state.userDrills.map(singleDrill =>
-                        <DrillCard key={singleDrill.id} drillProps={singleDrill} />
+                    {this.state.Userdrills.map(singleDrill =>
+                        <DrillCard key={singleDrill.id} drillProps={singleDrill.drill} />
                     )}
                 </div>
             </>
@@ -33,4 +34,4 @@ class DrillList extends Component {
 
     }
 }
-export default DrillList
+export default UserDrillList
