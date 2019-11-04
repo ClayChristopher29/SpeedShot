@@ -1,0 +1,46 @@
+body,
+button,
+input,
+select,
+textarea {
+	color:rgb(163, 52, 52);
+	font-family: 'Saira Stencil One', cursive;
+    ;
+	font-size: 14px;
+    line-height: 1.5;
+    background: grey
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Patua One', serif;
+  letter-spacing: 2px;
+}
+
+.section-container{
+    padding: 1.5em;
+}
+
+.range-section-content{
+    text-align: center;
+}
+
+.range-container-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.range-card{
+    width: 25vw;
+    padding: 1em;
+    margin: 1em;
+    border: 1x solid gray;
+}
+
+.journal-gif{
+    display: block;
+    height: auto;
+    border-radius: 50%;
+    width: 80%;
+    opacity:0.9% ;
+}

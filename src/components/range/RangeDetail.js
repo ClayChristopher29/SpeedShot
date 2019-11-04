@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import RangeDataManager from "../../modules/RangeDataManager"
 
+
 class RangeDetail extends Component {
     state={
         id:1,
@@ -45,7 +46,7 @@ class RangeDetail extends Component {
             <div className="range-card">
                 <div className="range-card-content">
                     <picture>
-                        <img src={require('./gif.gif')} alt="rangeimg"></img>
+                        <img className="journal-gif" src={require('./gif.gif')} alt="rangeimg"></img>
                     </picture>
                     <h2>Journal Entry</h2>
                     <h3>

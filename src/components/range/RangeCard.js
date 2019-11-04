@@ -7,7 +7,7 @@ class RangeCard extends Component{
             <div className="range-card">
                 <div className="range-card-content">
                     <picture>
-                        <img src={require("./journal.gif")} alt="journal-img"/>
+                        <img className="journal-gif" src={require("./journal.gif")} alt="journal-img"/>
                     </picture>
                     <h2 className = "range-card-name">Range Journal Entry</h2>
                     <h4>Caliber Used:{" "}

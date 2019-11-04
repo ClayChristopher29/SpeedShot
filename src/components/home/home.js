@@ -10,7 +10,10 @@ class Home extends Component {
 <React.Fragment>
 <div>
     <p id="descriptive-paragraph">
-        Welcome to Speed-Shot, your go-to application for tracking your personal progress as a competative or self defense shooter.
+        Welcome to Speed-Shot, your go-to application for tracking your personal progress as a competative or self defense shooter.<br></br>
+
+       <p> We hope that this application will become a useful tool in your training regiment.</p>
+
     </p>
 </div>
                 <div className="video-background">
